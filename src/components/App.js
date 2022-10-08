@@ -1,11 +1,15 @@
 import React from 'react'
+import MyNavbar from './MyNavbar';
 import { Container } from 'react-bootstrap';
 import Signup from './Signup'
 
 
 function App() {
   return (
-    <Container
+
+    <MyNavbar />
+  )
+   <Container
       className="d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
