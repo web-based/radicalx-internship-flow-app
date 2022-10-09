@@ -1,0 +1,57 @@
+/* Auto layout */
+.sideBarCode
+{    
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3px;
+    font-feature-settings: 'liga' off;
+
+    /* Dark */
+
+    color: #1E1E1E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sidebar-sticky
+{
+    
+    width: 160px; 
+    height: 32px;
+    background: url(images/RadicallX-Black-Logo.png);  
+    
+    /* Inside auto layout */  
+    flex: none; 
+    order: 0; 
+    flex-grow: 0;
+}
+
+.link-styles
+{
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 0px; 
+    padding-top: 70px; 
+
+    gap: 12px;  
+    width: 189px; 
+    height: 288px;   
+    
+    /* Inside auto layout */  
+    flex: none; 
+    order: 1; 
+    flex-grow: 0;
+}
