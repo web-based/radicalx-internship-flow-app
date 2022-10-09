@@ -5,6 +5,7 @@ import "./btn.css"
 
 function MainTitle() {
   return (
+
     <Container>
       <Stack gap={5}>
         <div className=""></div> {/*Stack is used to create the gap from the top of the website to the title & button*/}
@@ -23,6 +24,11 @@ function MainTitle() {
         </Col>
       </Row>
     </Container>
+
+    <div>RADICALX
+        
+    </div>
+
   )
 }
 
