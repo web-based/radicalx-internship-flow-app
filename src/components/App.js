@@ -1,10 +1,11 @@
 import React from 'react'
 import Signup from './Signup'
+import MainTitle from './MainTitle';
 
 
 function App() {
   return (
-    <Signup/>
+    <MainTitle/>
   )
 }
 
