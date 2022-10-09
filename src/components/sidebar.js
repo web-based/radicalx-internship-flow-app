@@ -1,8 +1,13 @@
 import React from "react";
-import {Nav} from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import './Dashboard.css'
+import { TbLayoutDashboard } from "react-icons/tb"
+import { TbAward } from 'react-icons/tb'
+import { VscBook } from "react-icons/vsc"
+import { BsBriefcase } from "react-icons/bs"
+import { BsGear } from "react-icons/bs"
 
-const Sidebar = props => {
+function Sidebar () {
     return (
         <>            
             <div className="sideBarCode">
@@ -13,19 +18,19 @@ const Sidebar = props => {
                     <div className="sidebar-sticky">
                     <div className="link-style">
                     <Nav.Item>
-                        <Nav.Link href="/home">Dashboard</Nav.Link>
+                        <Nav.Link href="/home"><TbLayoutDashboard/>Dashboard</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-1">Apprenticeships</Nav.Link>
+                        <Nav.Link eventKey="link-1"><TbAward/>Apprenticeships</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Internships</Nav.Link>
+                        <Nav.Link eventKey="link-2"><VscBook/>Internships</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-3">Jobs</Nav.Link>
+                        <Nav.Link eventKey="link-3"><BsBriefcase/>Jobs</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-4">Settings</Nav.Link>
+                        <Nav.Link eventKey="link-4"><BsGear/>Settings</Nav.Link>
                     </Nav.Item>
                      </div> 
                 </div>
