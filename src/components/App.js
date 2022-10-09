@@ -2,7 +2,6 @@ import React from 'react'
 import Signup from './Signup'
 import MainTitle from './MainTitle';
 // import Dashboard from './Dashboard';
-import Signup from './Signup';
 import Internship from './Internship';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 

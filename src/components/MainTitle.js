@@ -25,9 +25,6 @@ function MainTitle() {
       </Row>
     </Container>
 
-    <div>RADICALX
-        
-    </div>
 
   )
 }
