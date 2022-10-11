@@ -1,12 +1,14 @@
 import React from 'react'
-// import MainTitle from './MainTitle';
+import InternInsight from './InternInsight';
+import MainTitle from './MainTitle';
 import Sidebar from './Sidebar'
 
 function Internship() {
   return (
     <>
-      {/* <MainTitle /> */}
+      <MainTitle />
       <Sidebar />
+      <InternInsight />
 
     </>
   );
