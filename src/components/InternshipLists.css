@@ -1,0 +1,155 @@
+.tableHeader {
+    background-color: gray;
+}
+
+.tableLayout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1135px;
+    height: 536px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color:aqua;
+    border-radius: 10px;
+}
+
+.colOne {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 385px;
+    height: 536px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.colOneEle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    width: 385px;
+    height: 96px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.colTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 200px;
+    height: 536px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.colTwoEle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    width: 200px;
+    height: 96px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.colThree {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 160px;
+    height: 536px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.colThreeEle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    width: 160px;
+    height: 96px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.colFour {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 250px;
+    height: 536px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.colFourEle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    width: 250px;
+    height: 96px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.colFive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 140px;
+    height: 536px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.colFiveEle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 56px;
+    width: 140px;
+    height: 96px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
