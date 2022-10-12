@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import logo from './images/RadicallX-Black-Logo.png'
 import "./Dashboard.css";
 
+
 function Signup() {
   const emailRef = useRef();
   const passwordRef = useRef();
