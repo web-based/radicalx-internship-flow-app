@@ -6,10 +6,9 @@ function InternInsight() {
   return (
     <>
       <div className="internInsight-Container">
-        <h5>title</h5>
+        <h5>Internship Insights</h5>
         <p>
-          paragraph text,paragraph text,paragraph text,paragraph text,paragraph
-          text
+          In the eighteenth century the German philosopher Immanuel Kant developed a theory of knowledge in which knowledge about space can be both a priori and synthetic.
         </p>
       </div>
     </>

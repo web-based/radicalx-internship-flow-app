@@ -14,7 +14,6 @@ function App() {
         <Route path="/internship" element={<Internship />} />
         <Route path="/home" element={<Dashboard />} />
       </Routes>
-      
     </Router>
      
   );
