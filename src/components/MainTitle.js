@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Container, Row, Col } from 'react-bootstrap'
 import "./btn.css" 
+import "./App.css";
 
 function MainTitle() {
   return (

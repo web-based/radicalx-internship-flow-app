@@ -8,7 +8,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    background-color:aqua;
+    /* background-color:aqua; */
     border-radius: 10px;
     margin-left: 350px
 }
@@ -23,6 +23,7 @@
     flex: none;
     order: 0;
     flex-grow: 1;
+    
 }
 
 .colOneEle {
@@ -38,6 +39,7 @@
     order: 2;
     align-self: stretch;
     flex-grow: 0;
+    
 }
 
 .colOneTextBox {
@@ -51,6 +53,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+   
 }
 
 .colOneMainText {
@@ -110,6 +113,7 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+    
 }
 
 .colTwoTextBox {
@@ -319,5 +323,19 @@
 
 .tableHeader {
     background-color: #ebebeb;
-    height: 56px
+    height: 56px;
+    
+}
+
+.border-left{
+     border-top-left-radius: 25px;
+}
+.border-right{
+     border-top-right-radius: 25px;
+}
+.border-left-bottom{
+     border-bottom-left-radius: 25px;
+}
+.border-right-bottom{
+     border-bottom-right-radius: 25px;
 }

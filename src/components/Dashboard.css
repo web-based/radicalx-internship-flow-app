@@ -1,45 +1,27 @@
-/* Auto layout */
-.main-body {
-    background-color: rgb(241, 244, 248);
-}
 
-.sideBarCode
-{    
+
+.sideBarCode {
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.3px;
     font-feature-settings: 'liga' off;
-
-    /* Dark */
     color: #1E1E1E;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.sidebar-sticky
-{
-    width: 160px; 
+.sidebar-sticky {
+    width: 160px;
     height: 32px;
-    /* background: url(images/RadicallX-Black-Logo.png);   */
-    
     display: inline-flex;
-    
-    
-    /* Inside auto layout */  
-    flex: none; 
-    order: 0; 
+    flex: none;
+    order: 0;
     flex-grow: 0;
 }
 
@@ -52,52 +34,57 @@
     margin: auto;
     align-items: center;
 }
-.link-style
-{
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start; 
-    padding: 0px; 
-    padding-top: 30px; 
-    margin-top: 0.5%;
 
-    position:absolute;
-    gap: 12px;  
-    width: 219px; 
-    height: 96vh;   
-    
-    /* Inside auto layout */  
-    flex: none; 
-    order: 1; 
+.link-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-top: 1.1%;
+    position: absolute;
+    gap: 12px;
+    width: 219px;
+    height: 97vh;
+    flex: none;
+    order: 1;
     flex-grow: 0;
-
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     border-radius: 24px;
     margin-left: 1%;
 }
+.link-style  a {
+color:#000;
+display:flex;
+align-items: center;
 
-.home-logo{
-    margin:auto;
-    width:100%;
-    padding-bottom:3%;
+}
+.nav-item{
+display:flex;
+align-items: center;
+}
+.svg{
+    width:20px;
+    height:20px;
 }
 
-.pass-firm{
-    margin-bottom:20px;
+.home-logo {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 3%;
 }
 
-.internInsight-Container{
-background-color: #F6F5F9;
-border-radius: 16px;
-/* width: auto; */
-/* height: 220px; */
+.pass-firm {
+    margin-bottom: 20px;
+}
 
-padding: 1% 2% 3% 2%;
-
-inline-size: 300px; 
-margin-left: 350px;
-margin-bottom: 2%;
-
-overflow: hidden;
+.internInsight-Container {
+    background-color: #F6F5F9;
+    border-radius: 16px;
+    padding: 1% 2% 3% 2%;
+    inline-size: 300px;
+    margin-left: 350px;
+    margin-bottom: 2%;
+    overflow: hidden;
 
 }

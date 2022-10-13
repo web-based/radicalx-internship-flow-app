@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { Container } from "react-bootstrap";
 import logo from './images/RadicallX-Black-Logo.png'
 import "./Dashboard.css";
+import "./App.css";
 
 
 function Signup() {

@@ -9,7 +9,7 @@ function Internship() {
     <>
       <div>
         <Sidebar />
-        <MainTitle />
+        <MainTitle/>
         <InternInsight />
         <InternshipLists />
       </div>
