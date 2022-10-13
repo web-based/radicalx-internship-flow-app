@@ -7,11 +7,12 @@ import InternshipLists from './InternshipLists';
 function Internship() {
   return (
     <>
-      <MainTitle />
-      <Sidebar />
-      <InternInsight />
-      <InternshipLists />
-
+      <div>
+        <Sidebar />
+        <MainTitle />
+        <InternInsight />
+        <InternshipLists />
+      </div>
     </>
   );
 }

@@ -1,4 +1,8 @@
 /* Auto layout */
+.main-body {
+    background-color: rgb(241, 244, 248);
+}
+
 .sideBarCode
 {    
     font-family: 'Space Grotesk';
@@ -14,7 +18,6 @@
     font-feature-settings: 'liga' off;
 
     /* Dark */
-
     color: #1E1E1E;
 
 
@@ -27,10 +30,12 @@
 
 .sidebar-sticky
 {
-    
     width: 160px; 
     height: 32px;
-    background: url(images/RadicallX-Black-Logo.png);  
+    /* background: url(images/RadicallX-Black-Logo.png);   */
+    
+    display: inline-flex;
+    
     
     /* Inside auto layout */  
     flex: none; 
@@ -38,22 +43,37 @@
     flex-grow: 0;
 }
 
-.link-styles
+.sidebar-logo {
+    margin-left: 10%
+}
+
+.image-class {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.link-style
 {
     display: flex; 
     flex-direction: column; 
     align-items: flex-start; 
     padding: 0px; 
-    padding-top: 70px; 
+    padding-top: 30px; 
+    margin-top: 0.5%;
 
+    position:absolute;
     gap: 12px;  
-    width: 189px; 
-    height: 288px;   
+    width: 219px; 
+    height: 96vh;   
     
     /* Inside auto layout */  
     flex: none; 
     order: 1; 
     flex-grow: 0;
+
+    background-color: rgb(255, 255, 255); 
+    border-radius: 24px;
+    margin-left: 1%;
 }
 
 .home-logo{
@@ -69,6 +89,15 @@
 .internInsight-Container{
 background-color: #F6F5F9;
 border-radius: 16px;
-width: 280px;
-height: 238px;
+/* width: auto; */
+/* height: 220px; */
+
+padding: 1% 2% 3% 2%;
+
+inline-size: 300px; 
+margin-left: 350px;
+margin-bottom: 2%;
+
+overflow: hidden;
+
 }
