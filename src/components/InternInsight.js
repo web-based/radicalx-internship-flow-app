@@ -7,7 +7,7 @@ function InternInsight() {
     <>
       <div className="int-insight-main-container">
       
-        <div className="internInsight-Container">
+        <div className="intern-insight-container">
           <h5>Internship Insights</h5>
           <p>
             In the eighteenth century the German philosopher Immanuel Kant
