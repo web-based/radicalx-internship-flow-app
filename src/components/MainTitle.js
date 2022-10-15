@@ -13,7 +13,7 @@ function MainTitle() {
             Internship
           </h4>
         </Col>
-        <Col md={{span: 2, offset: 1}}>
+        <Col >
           <Button className="home-title-btn" size="sm">
             + Create New Internship
           </Button>

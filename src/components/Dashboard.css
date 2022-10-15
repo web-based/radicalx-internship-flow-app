@@ -84,7 +84,19 @@ align-items: center;
     padding: 1% 2% 3% 2%;
     inline-size: 300px;
     margin-left: 350px;
-    margin-bottom: 2%;
-    overflow: hidden;
+    margin: 2%;
+    /* overflow: hidden; */
+    display:flex;
+    flex-direction: column;
 
+}
+
+.int-insight-main-container{
+background-color: #fff;
+ border-radius: 16px;
+ /* inline-size: 1200px; */
+ /* height:260px; */
+ display:flex;
+ margin-left: 350px;
+ margin-bottom: 2%;
 }

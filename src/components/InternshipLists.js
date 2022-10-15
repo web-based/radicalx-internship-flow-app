@@ -7,7 +7,7 @@ function InternshipLists() {
     <div className="tableLayout">
       <div className="colOne">
         <div className="colOneEle tableHeader border-left">
-          <h3 className="int-title-header">Internship Title</h3>
+          Internship Title
         </div>
         <div className="colOneEle">
           <div className="colOneTextBox">
@@ -44,32 +44,32 @@ function InternshipLists() {
         <div className="colTwoEle tableHeader">Completion Period</div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
-            <div className="colTwoDayText">2</div>
-            <div className="colTwoText">22</div>
+            <div className="colTwoDayText">120 days</div>
+            <div className="colTwoText">(created on 10/14/22)</div>
           </div>
         </div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
-            <div className="colTwoDayText">2</div>
-            <div className="colTwoText">22</div>
+            <div className="colTwoDayText">120 days</div>
+            <div className="colTwoText">(created on 10/14/22)</div>
           </div>
         </div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
-            <div className="colTwoDayText">2</div>
-            <div className="colTwoText">22</div>
+            <div className="colTwoDayText">120 days</div>
+            <div className="colTwoText">(created on 10/14/22)</div>
           </div>
         </div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
-            <div className="colTwoDayText">2</div>
-            <div className="colTwoText">22</div>
+            <div className="colTwoDayText">120 days</div>
+            <div className="colTwoText">(created on 10/14/22)</div>
           </div>
         </div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
-            <div className="colTwoDayText">2</div>
-            <div className="colTwoText">22</div>
+            <div className="colTwoDayText">120 days</div>
+            <div className="colTwoText">(created on 10/14/22)</div>
           </div>
         </div>
       </div>
@@ -77,27 +77,27 @@ function InternshipLists() {
         <div className="colThreeEle tableHeader">Total Enrolled</div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
-            <div className="colThreeText">3</div>
+            <div className="colThreeText">20,000</div>
           </div>
         </div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
-            <div className="colThreeText">3</div>
+            <div className="colThreeText">20,000</div>
           </div>
         </div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
-            <div className="colThreeText">3</div>
+            <div className="colThreeText">20,000</div>
           </div>
         </div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
-            <div className="colThreeText">3</div>
+            <div className="colThreeText">20,000</div>
           </div>
         </div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
-            <div className="colThreeText">3</div>
+            <div className="colThreeText">20,000</div>
           </div>
         </div>
       </div>
@@ -106,35 +106,35 @@ function InternshipLists() {
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
-              <div className="colFourText">4</div>
+              <div className="colFourText">120</div>
             </div>
           </div>
         </div>
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
-              <div className="colFourText">4</div>
+              <div className="colFourText">120</div>
             </div>
           </div>
         </div>
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
-              <div className="colFourText">4</div>
+              <div className="colFourText">120</div>
             </div>
           </div>
         </div>
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
-              <div className="colFourText">4</div>
+              <div className="colFourText">120</div>
             </div>
           </div>
         </div>
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
-              <div className="colFourText">4</div>
+              <div className="colFourText">120</div>
             </div>
           </div>
         </div>
