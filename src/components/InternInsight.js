@@ -15,6 +15,18 @@ function InternInsight() {
             be both a priori and synthetic.
           </p>
         </div>
+        <div className="int-insight-title-containter">
+          <div>
+            this week
+          </div>
+          <div>
+            this month
+          </div>
+          <div>
+            select date
+          </div>
+        
+        </div>
       </div>
     </>
   );
