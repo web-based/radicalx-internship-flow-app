@@ -8,7 +8,7 @@ function InternInsight() {
       <div className="int-insight-main-container">
       
         <div className="intern-insight-container">
-          <h5>Internship Insights</h5>
+          <h5>Internship Insights.</h5>
           <p>
             In the eighteenth century the German philosopher Immanuel Kant
             developed a theory of knowledge in which knowledge about space can
