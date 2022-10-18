@@ -8,7 +8,6 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    /* background-color:aqua; */
     border-radius: 10px;
     margin-left: 350px
 }
@@ -22,8 +21,7 @@
     height: 536px;
     flex: none;
     order: 0;
-    flex-grow: 1;
-    
+    flex-grow: 1;   
 }
 
 .colOneEle {
@@ -39,7 +37,6 @@
     order: 2;
     align-self: stretch;
     flex-grow: 0;
-    
 }
 
 .colOneTextBox {
@@ -53,7 +50,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-   
 }
 
 .colOneMainText {
@@ -113,7 +109,6 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    
 }
 
 .colTwoTextBox {
@@ -293,6 +288,20 @@
     flex-grow: 0;
 }
 
+.colFourGraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 4px;
+    width: 190px;
+    height: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
 .colFive {
     display: flex;
     flex-direction: column;
@@ -321,10 +330,28 @@
     flex-grow: 0;
 }
 
+.colFiveIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 108px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon {
+    opacity: 0.5;
+    color:#793EF5
+}
+
 .tableHeader {
     background-color: #F6F5F9;
-    height: 56px;
-    
+    height: 56px;   
+    font-family: 'Space Grotesk';
 }
 
 .border-left{
