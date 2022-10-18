@@ -9,12 +9,14 @@ import {TbCircles} from "react-icons/tb";
 function InternshipLists() {
   return (
     <div className="tableLayout">
-      <div className="colOne"> 
+      <div className="colOne">
         <div className="colOneEle tableHeader border-left">
-          Internship Title  
-          <div className="icon"><BsArrowDownSquare /></div> 
+          Internship Title
+          <div className="icon">
+            <BsArrowDownSquare />
+          </div>
         </div>
-        
+
         <div className="colOneEle">
           <div className="colOneTextBox">
             <div className="colOneMainText">Product Design GVI</div>
@@ -47,8 +49,11 @@ function InternshipLists() {
         </div>
       </div>
       <div className="colTwo">
-        <div className="colTwoEle tableHeader">Completion Period
-          <div className="icon"><BsArrowDownSquare /></div> 
+        <div className="colTwoEle tableHeader">
+          Completion Period
+          <div className="icon">
+            <BsArrowDownSquare />
+          </div>
         </div>
         <div className="colTwoEle">
           <div className="colTwoTextBox">
@@ -82,8 +87,11 @@ function InternshipLists() {
         </div>
       </div>
       <div className="colThree">
-        <div className="colThreeEle tableHeader">Total Enrolled
-          <div className="icon"><BsArrowDownSquare /></div> 
+        <div className="colThreeEle tableHeader">
+          Total Enrolled
+          <div className="icon">
+            <BsArrowDownSquare />
+          </div>
         </div>
         <div className="colThreeEle">
           <div className="colThreeTextBox">
@@ -112,30 +120,18 @@ function InternshipLists() {
         </div>
       </div>
       <div className="colFour">
-        <div className="colFourEle tableHeader">Qualified Candidates
-          <div className="icon"><BsArrowDownSquare /></div> </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" src={graph} />  
-          </div>
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>             
-            </div>
-            <img className="colFourGraph" src={graph} />  
-          </div>
+        <div className="colFourEle tableHeader">
+          Qualified Candidates
+          <div className="icon">
+            <BsArrowDownSquare />
+          </div>{" "}
         </div>
         <div className="colFourEle">
           <div className="colFourBox">
             <div className="colFourTextBox">
               <div className="colFourText">120</div>
             </div>
-            <img className="colFourGraph" src={graph} />  
+            <img className="colFourGraph" alt="icon of graph" src={graph} />
           </div>
         </div>
         <div className="colFourEle">
@@ -143,7 +139,7 @@ function InternshipLists() {
             <div className="colFourTextBox">
               <div className="colFourText">120</div>
             </div>
-            <img className="colFourGraph" src={graph} />  
+            <img className="colFourGraph" alt="icon of graph" src={graph} />
           </div>
         </div>
         <div className="colFourEle">
@@ -151,46 +147,92 @@ function InternshipLists() {
             <div className="colFourTextBox">
               <div className="colFourText">120</div>
             </div>
-            <img className="colFourGraph" src={graph} />  
+            <img className="colFourGraph" alt="icon of graph" src={graph} />
+          </div>
+        </div>
+        <div className="colFourEle">
+          <div className="colFourBox">
+            <div className="colFourTextBox">
+              <div className="colFourText">120</div>
+            </div>
+            <img className="colFourGraph" alt="icon of graph" src={graph} />
+          </div>
+        </div>
+        <div className="colFourEle">
+          <div className="colFourBox">
+            <div className="colFourTextBox">
+              <div className="colFourText">120</div>
+            </div>
+            <img className="colFourGraph" alt="icon of graph" src={graph} />
           </div>
         </div>
       </div>
       <div className="colFive ">
         <div className="colFiveEle tableHeader border-right"></div>
         <div className="colFiveEle">
-          <div className = "colFiveIcon">
-            <div className= "icon"><VscGraph /></div>
-            <div className= "icon"><BsPerson /></div>
-            <div className= "icon"><TbCircles /></div>
-          </div>  
+          <div className="colFiveIcon">
+            <div className="icon">
+              <VscGraph />
+            </div>
+            <div className="icon">
+              <BsPerson />
+            </div>
+            <div className="icon">
+              <TbCircles />
+            </div>
+          </div>
         </div>
         <div className="colFiveEle">
-          <div className = "colFiveIcon">
-            <div className= "icon"><VscGraph /></div>
-            <div className= "icon"><BsPerson /></div>
-            <div className= "icon"><TbCircles /></div>
-          </div> 
+          <div className="colFiveIcon">
+            <div className="icon">
+              <VscGraph />
+            </div>
+            <div className="icon">
+              <BsPerson />
+            </div>
+            <div className="icon">
+              <TbCircles />
+            </div>
+          </div>
         </div>
         <div className="colFiveEle">
-          <div className = "colFiveIcon">
-            <div className= "icon"><VscGraph /></div>
-            <div className= "icon"><BsPerson /></div>
-            <div className= "icon"><TbCircles /></div>
-          </div> 
+          <div className="colFiveIcon">
+            <div className="icon">
+              <VscGraph />
+            </div>
+            <div className="icon">
+              <BsPerson />
+            </div>
+            <div className="icon">
+              <TbCircles />
+            </div>
+          </div>
         </div>
         <div className="colFiveEle">
-          <div className = "colFiveIcon">
-            <div className= "icon"><VscGraph /></div>
-            <div className= "icon"><BsPerson /></div>
-            <div className= "icon"><TbCircles /></div>
-          </div> 
+          <div className="colFiveIcon">
+            <div className="icon">
+              <VscGraph />
+            </div>
+            <div className="icon">
+              <BsPerson />
+            </div>
+            <div className="icon">
+              <TbCircles />
+            </div>
+          </div>
         </div>
         <div className="colFiveEle border-right-bottom">
-          <div className = "colFiveIcon">
-            <div className= "icon"><VscGraph /></div>
-            <div className= "icon"><BsPerson /></div>
-            <div className= "icon"><TbCircles /></div>
-          </div> 
+          <div className="colFiveIcon">
+            <div className="icon">
+              <VscGraph />
+            </div>
+            <div className="icon">
+              <BsPerson />
+            </div>
+            <div className="icon">
+              <TbCircles />
+            </div>
+          </div>
         </div>
       </div>
     </div>
