@@ -6,7 +6,6 @@ function InternInsight() {
   return (
     <>
       <div className="int-insight-main-container">
-      
         <div className="intern-insight-container">
           <h5>Internship Insights.</h5>
           <p>
@@ -15,17 +14,10 @@ function InternInsight() {
             be both a priori and synthetic.
           </p>
         </div>
-        <div className="int-insight-title-containter">
-          <div>
-            this week
-          </div>
-          <div>
-            this month
-          </div>
-          <div>
-            select date
-          </div>
-        
+        <div className="layout-container">
+          <div className="this-week-container">This week</div>
+          <div className="this-month-container">This month</div>
+          <div className="select-dates-container">Select dates</div>
         </div>
       </div>
     </>
