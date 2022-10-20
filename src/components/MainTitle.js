@@ -5,24 +5,16 @@ import "./App.css";
 
 function MainTitle() {
   return (
-
-    <Container>      
-      <Row className="main-title-row">
-        <Col md={{ span: 7, offset: 2 }} > 
-          <h4>
-            Internship
-          </h4>
-        </Col>
-        <Col >
-          <Button className="home-title-btn" size="sm">
-            + Create New Internship
-          </Button>
-        </Col>
-      </Row>
-    </Container>
-
-
-  )
+    <div className="main-title-row">
+        <div className="internship-main-text">
+          <h4>Internship</h4>
+        </div>
+        <div className="create-int-btn">
+          <button className="home-title-btn">+ Create New Internship</button>
+        </div>
+      
+    </div>
+  );
 }
 
 export default MainTitle

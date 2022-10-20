@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Dashboard.css";
 import { BsCalendar4Week } from "react-icons/bs";
+// import MainTitle from './MainTitle';
 // This component is for Slav
 function InternInsight() {
   return (
     <>
+      
       <div className="int-insight-main-container">
         <div className="intern-insight-container">
           <h5>Internship Insights.</h5>
