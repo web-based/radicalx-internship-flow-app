@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Dashboard.css";
-
+import { BsCalendar4Week } from "react-icons/bs";
 // This component is for Slav
 function InternInsight() {
   return (
@@ -17,7 +17,12 @@ function InternInsight() {
         <div className="layout-container">
           <div className="this-week-container">This week</div>
           <div className="this-month-container">This month</div>
-          <div className="select-dates-container">Select dates</div>
+          <div className="select-dates-container">
+            <div className="calender-icon">
+              <BsCalendar4Week />
+            </div>
+            Select dates
+          </div>
         </div>
       </div>
     </>
