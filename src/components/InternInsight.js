@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Dashboard.css";
+import "./InternInsight.css";
 import { BsCalendar4Week } from "react-icons/bs";
 // import MainTitle from './MainTitle';
 // This component is for Slav

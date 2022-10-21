@@ -1,0 +1,106 @@
+.intern-insight-container {
+    background-color: #F6F5F9;
+    border-radius: 16px;
+    padding: 1% 2% 3% 2%;
+    inline-size: 300px;
+    margin-left: 350px;
+    margin: 0 2% 2% 0;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.int-insight-main-container {
+    background-color: #fff;
+    border-radius: 16px;
+    /* inline-size: 1200px; */
+    /* height:260px; */
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 2%;
+
+    /* Auto layout */
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 1135px;
+    height: 270px;
+
+    /* Snow */
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.layout-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 813px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.this-week-container {
+    /* Auto layout */
+    padding: 6px 12px;
+    gap: 8px;
+    width: Hug(91px);
+    height: Hug(32px);
+
+    /* Purple */
+    background: #793EF5;
+    border-radius: 8px;
+    color: white;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.this-month-container {
+    /* Auto layout */
+    padding: 6px 12px;
+    gap: 8px;
+    width: Hug(100px);
+    height: Hug(32px);
+
+    /* Snow */
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.select-dates-container {
+    padding: 6px 12px;
+    row-gap: 350px;
+    text-align: right;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+}
+.calender-icon{
+    display:flex;
+    padding-right:inherit;
+}
