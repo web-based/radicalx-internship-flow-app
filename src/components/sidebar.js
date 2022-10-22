@@ -50,6 +50,19 @@ function Sidebar () {
                       Settings
                     </Nav.Link>
                   </Nav.Item>
+                  <div className="profile-section">
+                  <Nav.Item>
+                    <img
+                    className="profile-picture"
+                      // this will be modified later
+                      // src={logo}
+                      // alt="radicalX-logo"
+                    />
+                    <Nav.Link eventKey="#">
+                      Profile
+                    </Nav.Link>
+                    </Nav.Item>
+                    </div>                 
                 </div>
               </div>
             </div>

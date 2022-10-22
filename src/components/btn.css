@@ -1,12 +1,14 @@
-.home-title-btn {
+/* .home-title-btn {
     background: #793EF5 ;
     border: none;
     padding: 12px 16px;
     border-radius: 12px;
     color:#fff;
-    /* float:right; */
+    /* float:right;
     margin-bottom:2%;
-}
+} */
+
+
 .home-title-btn:hover{
     background: #793EF5;
 }
@@ -19,7 +21,8 @@
 .internship-main-text{
     align-items: center;
 }
-.main-title-row{
+
+/* .main-title-row{
     display: flex;
     align-items: center;
     margin-left:350px;
@@ -27,4 +30,23 @@
     margin-bottom:2%;
     justify-content: space-between;
     
+} */
+
+.main-title-row {    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    width: 1135px;
+    margin-left: 350px;
+    margin-bottom: 2%;
 }
+
+.home-title-btn {
+    background: #793EF5 ;
+    color:aliceblue;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
