@@ -1,22 +1,25 @@
 import React from 'react';
 import "./InternshipLists.css";
 import "./App.css";
+import "./Dashboard.css"
 import graph from './images/graph.png';
 import {BsArrowDownSquare, BsPerson} from "react-icons/bs";
 import {VscGraph} from "react-icons/vsc";
 import {TbCircles} from "react-icons/tb";
+import {Table,Col} from "react-bootstrap";
 
 function InternshipLists() {
   return (
+    <container className="check3">
+    <Table classname="check" responsive>
     <div className="tableLayout">
-      <div className="colOne">
-        <div className="colOneEle tableHeader border-left">
-          Internship Title
+        <Col>
+        <div className="colOne">
+        <div className="colOneEle tableHeader border-left">Internship Title
           <div className="icon">
-            <BsArrowDownSquare />
+            <BsArrowDownSquare/>
           </div>
         </div>
-
         <div className="colOneEle">
           <div className="colOneTextBox">
             <div className="colOneMainText">Product Design GVI</div>
@@ -47,8 +50,10 @@ function InternshipLists() {
             <div className="colOneText">11</div>
           </div>
         </div>
-      </div>
-      <div className="colTwo">
+        </div>
+        </Col>
+        <Col>
+        <div className="colTwo">
         <div className="colTwoEle tableHeader">
           Completion Period
           <div className="icon">
@@ -86,6 +91,8 @@ function InternshipLists() {
           </div>
         </div>
       </div>
+      </Col>
+      <Col>
       <div className="colThree">
         <div className="colThreeEle tableHeader">
           Total Enrolled
@@ -119,6 +126,8 @@ function InternshipLists() {
           </div>
         </div>
       </div>
+      </Col>
+      <Col>
       <div className="colFour">
         <div className="colFourEle tableHeader">
           Qualified Candidates
@@ -167,6 +176,8 @@ function InternshipLists() {
           </div>
         </div>
       </div>
+      </Col>
+      <Col>
       <div className="colFive ">
         <div className="colFiveEle tableHeader border-right"></div>
         <div className="colFiveEle">
@@ -235,7 +246,10 @@ function InternshipLists() {
           </div>
         </div>
       </div>
-    </div>
+      </Col>
+     </div> 
+     </Table>
+    </container>  
   );
 }
 
