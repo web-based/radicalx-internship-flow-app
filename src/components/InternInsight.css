@@ -98,6 +98,16 @@
     background: #FFFFFF;
     border-radius: 8px;
     display:flex;
+    margin-left: 408px;
+    align-items: center;
+}
+.select-dates {
+    /* padding: 6px 12px; */
+    /* row-gap: 350px;
+    text-align: right;
+    background: #FFFFFF; */
+    /* border-radius: 8px; */
+    display:flex;
     align-items: center;
 }
 .calender-icon{

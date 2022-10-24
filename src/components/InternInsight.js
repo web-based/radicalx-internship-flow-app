@@ -6,7 +6,6 @@ import { BsCalendar4Week } from "react-icons/bs";
 function InternInsight() {
   return (
     <>
-      
       <div className="int-insight-main-container">
         <div className="intern-insight-container">
           <h5>Internship Insights.</h5>
@@ -18,12 +17,15 @@ function InternInsight() {
         </div>
         <div className="layout-container">
           <div className="this-week-container">This week</div>
+
           <div className="this-month-container">This month</div>
           <div className="select-dates-container">
-            <div className="calender-icon">
-              <BsCalendar4Week />
+            <div className="select-dates">
+              <div className="calender-icon">
+                <BsCalendar4Week />
+              </div>
+              Select dates
             </div>
-            Select dates
           </div>
         </div>
       </div>
