@@ -7,7 +7,8 @@ import { TbAward } from "react-icons/tb";
 import { VscBook } from "react-icons/vsc";
 import { BsBriefcase } from "react-icons/bs";
 import { BsGear } from "react-icons/bs";
-import logo from "./images/RadicallX-Black-Logo.png";
+import logo from "./images/RadicallX-Black-Logo.png"
+import profile from "./images/radical_circle_logo.jpeg";
 
 function Sidebar() {
   return (
@@ -44,9 +45,9 @@ function Sidebar() {
                   <Nav.Item>
                     <img
                       className="profile-picture"
-                      // this will be modified later
-                      // src={logo}
-                      // alt="radicalX-logo"
+                      this will be modified later
+                      src={profile}
+                      alt="radicalX-circle-logo"
                     />
                     <Nav.Link eventKey="#">Profile</Nav.Link>
                   </Nav.Item>
