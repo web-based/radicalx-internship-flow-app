@@ -1,8 +1,7 @@
 import React from 'react'
 import "./InternInsight.css";
 import { BsCalendar4Week } from "react-icons/bs";
-// import MainTitle from './MainTitle';
-// This component is for Slav
+
 function InternInsight() {
   return (
     <>
@@ -24,7 +23,7 @@ function InternInsight() {
               <div className="calender-icon">
                 <BsCalendar4Week />
               </div>
-              Select dates
+               Select dates
             </div>
           </div>
         </div>
