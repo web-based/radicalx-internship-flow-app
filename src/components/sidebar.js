@@ -23,15 +23,17 @@ function Sidebar() {
                 </div>
                 <Nav.Item>
                   <TbLayoutDashboard />
-                  <Nav.Link href="/home">Dashboard</Nav.Link>
+                  <Nav.Link href="#">Dashboard</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <TbAward />
                   <Nav.Link eventKey="#">Apprenticeships</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="active-link">
                   <VscBook />
-                  <Nav.Link href="/internship">Internships</Nav.Link>
+                  <Nav.Link href="/internship">
+                    Internships
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <BsBriefcase />
@@ -45,7 +47,11 @@ function Sidebar() {
                   <Nav.Item>
                     <img
                       className="profile-picture"
-                      this will be modified later
+                      this
+                      will
+                      be
+                      modified
+                      later
                       src={profile}
                       alt="radicalX-circle-logo"
                     />
