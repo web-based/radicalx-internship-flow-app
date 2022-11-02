@@ -118,3 +118,6 @@
   border-bottom-left-radius: 25px;
 }
 
+.cell > h4 {
+  font-weight: 500;
+}

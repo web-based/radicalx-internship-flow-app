@@ -38,23 +38,23 @@ function internshipTable() {
               <BsArrowDownSquare />
             </div>
           </div>
-          <div class="cell tableHeader border-right" id="5">
+          <div className="cell tableHeader border-right" id="5">
            
           </div>
-          <div class="cell" id="6">
+          <div className="cell" id="6">
             <h4>Product Design GVI</h4>
             <p>
               Amet minim mollit non deserunt est sit aliqua dolor do amet sint.{" "}
             </p>
           </div>
-          <div class="cell" id="7">
+          <div className="cell" id="7">
             <h4>120 Days</h4>
             <p>(created on 10/29/22) </p>
           </div>
-          <div class="cell" id="8">
+          <div className="cell" id="8">
             20,000
           </div>
-          <div class="cell" id="9">
+          <div className="cell" id="9">
             120
             <img className="column-graph" alt="icon of graph" src={graph} />
           </div>
@@ -71,24 +71,24 @@ function internshipTable() {
               </div>
             </div>
           </div>
-          <div class="cell" id="11">
+          <div className="cell" id="11">
             <h4>Product Design GVI</h4>
             <p>
               Amet minim mollit non deserunt est sit aliqua dolor do amet sint.{" "}
             </p>
           </div>
-          <div class="cell" id="12">
+          <div className="cell" id="12">
             <h4>120 Days</h4>
             <p>(created on 10/29/22) </p>
           </div>
-          <div class="cell" id="13">
+          <div className="cell" id="13">
             20,000
           </div>
-          <div class="cell" id="14">
+          <div className="cell" id="14">
             120
             <img className="column-graph" alt="icon of graph" src={graph} />
           </div>
-          <div class="cell" id="15">
+          <div className="cell" id="15">
             <div className="column-icons">
               <div className="icon">
                 <VscGraph />
@@ -101,17 +101,17 @@ function internshipTable() {
               </div>
             </div>
           </div>
-          <div class="cell" id="16">
+          <div className="cell" id="16">
             <h4>Product Design GVI</h4>
             <p>
               Amet minim mollit non deserunt est sit aliqua dolor do amet sint.{" "}
             </p>
           </div>
-          <div class="cell" id="17">
+          <div className="cell" id="17">
             <h4>120 Days</h4>
             <p>(created on 10/29/22) </p>
           </div>
-          <div class="cell" id="18">
+          <div className="cell" id="18">
             20,000
           </div>
           <div className="cell" id="19">
@@ -137,14 +137,14 @@ function internshipTable() {
               Amet minim mollit non deserunt est sit aliqua dolor do amet sint.{" "}
             </p>
           </div>
-          <div class="cell" id="22">
+          <div className="cell" id="22">
             <h4>120 Days</h4>
             <p>(created on 10/29/22) </p>
           </div>
-          <div class="cell" id="23">
+          <div className="cell" id="23">
             20,000
           </div>
-          <div class="cell" id="24">
+          <div className="cell" id="24">
             120
             <img className="column-graph" alt="icon of graph" src={graph} />
           </div>
