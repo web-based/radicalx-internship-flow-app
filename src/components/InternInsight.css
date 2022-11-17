@@ -38,6 +38,180 @@
 
 }
 
+.layout-and-graph-container
+{
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 35%; */
+    
+}
+
+.graph-container 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: inherit;
+    height: 48px;
+    
+    border-radius: 12px; 
+}
+
+.graph-container .graph
+{
+    position: relative;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+}
+
+.graph-container .line1
+{
+    position: relative;
+    top: 150%;
+    right: 91%;
+    z-index: 1;
+}
+
+.graph-container .line2
+{
+    position: relative;
+    top: 150%;
+    right: 77%;
+    z-index: 1;
+}
+
+.graph-container .line3
+{
+    position: relative;
+    top: 150%;
+    right: 63%;
+    z-index: 1;
+}
+
+.graph-container .line4
+{
+    position: relative;
+    top: 150%;
+    right: 49%;
+    z-index: 1;
+}
+
+.graph-container .line5
+{
+    position: relative;
+    top: 150%;
+    right: 35%;
+    z-index: 1;
+}
+
+.graph-container .line6
+{
+    position: relative;
+    top: 150%;
+    right: 21%;
+    z-index: 1;
+}
+
+.graph-container .line7
+{
+    position: relative;
+    top: 150%;
+    right: 10%;
+    z-index: 1;
+}
+
+.label-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 185px;  
+    
+    /*this is here because it gets rid of some of the extra space; we can find a way to fix it later*/
+    margin-bottom: -50px;
+
+    /*font stuff*/
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+}   
+
+.label-container .label1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 4%;
+    z-index: 1;
+
+    
+}
+
+.label-container .label2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 10.5%;
+    z-index: 1;
+}
+.label-container .label3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 16%;
+    z-index: 1;
+}
+.label-container .label4
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 22.3%;
+    z-index: 1;
+}
+.label-container .label5
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 30.5%;
+    z-index: 1;
+}
+.label-container .label6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 36%;
+    z-index: 1;
+}
+
+.label-container .sub-label
+{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+}
+
 .this-week-container {
     padding: 6px 12px;
     background: #793EF5;
@@ -79,3 +253,4 @@
     display: flex;
     padding-right: 5px;
 }
+
