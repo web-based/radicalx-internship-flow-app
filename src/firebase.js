@@ -1,5 +1,3 @@
-// firebase was already installed with the command > npm i firebase
-
 import firebase from 'firebase/app';
 import "firebase/auth"
 
