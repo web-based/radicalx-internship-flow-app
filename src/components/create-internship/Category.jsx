@@ -23,29 +23,29 @@ export default function Category({ modifySectionValue, value }) {
         <CategoryContainer>
             <SectionTitle>Category</SectionTitle>
             <form onSubmit={(e) => handleSubmit(e)}>
-                <input 
-                    type="text" 
-                    name="searchCategory" 
-                    value={ categoryName }
-                    placeholder='Search Category' 
+                <input
+                    type="text"
+                    name="searchCategory"
+                    value={categoryName}
+                    placeholder='Search Category'
                     onChange={(e) => setCategoryName(e.target.value)}
                     required
                 />
-                <img src={search} alt='Search Icon'/>
+                <img src={search} alt='Search Icon' />
             </form>
             <CategoryDisplay>
                 {value.map((cat) => (
                     <CategoryItem key={cat}>
                         <p>{cat}</p>
                         <button onClick={() => filterArray(cat)}>
-                            <img src={close} alt='close_icon'/>
+                            <img src={close} alt='close_icon' />
                         </button>
                     </CategoryItem>
                 ))}
             </CategoryDisplay>
         </CategoryContainer>
     )
-} 
+}
 
 const CategoryContainer = styled.div`
     padding: 0 24px 24px 24px;

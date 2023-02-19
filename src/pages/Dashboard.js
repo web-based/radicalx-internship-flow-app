@@ -11,7 +11,7 @@ import add from "../assets/add_square.png";
 
 const Dashboard = (props) => {
 
-     const navigate = useNavigate();
+const navigate = useNavigate();
   return (
     <DashContainer>
       <Sidebar />
