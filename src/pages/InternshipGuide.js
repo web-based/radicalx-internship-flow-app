@@ -1,254 +1,105 @@
-import React from 'react';
+import { useState } from "react";
+import styled from "@emotion/styled";
 
+// components
+import HeaderBox from "../components/reusable-comp/Header";
+import ProgressBar from "../components/reusable-comp/Progress";
+import SectionNamesList from "../components/internship-guide/SectionNamesList";
+import SectionsForms from "../components/internship-guide/SectionForms";
 
-import {BsArrowDownSquare, BsPerson} from "react-icons/bs";
-import {VscGraph} from "react-icons/vsc";
-import {TbCircles} from "react-icons/tb";
-import {Table,Col} from "react-bootstrap";
+function InternshipGuide() {
+  const [formValues, setFormValues] = useState({
+    Overview: { Brief: "", Requirements: "", Milestones: "" },
+    Schedule: { Duration: "", Timeline: "", Deliverables: "" },
+    Resources: { Curated: "", Events: "" },
+  });
+  const [videoValues, setVideoValues] = useState({
+    Overview: { Brief: "", Requirements: "", Milestones: "" },
+    Schedule: { Duration: "", Timeline: "", Deliverables: "" },
+    Resources: { Curated: "", Events: "" },
+  });
+  const [toggle, setToggle] = useState("Overview");
+  const FormSectionNames = Object.keys(formValues);
+  const [numberVideos, setNumberVideos] = useState(0);
 
-function InternshipLists() {
+  function checkComplete() {
+    setNumberVideos(numberVideos + 1);
+    if (numberVideos === 7) {
+      document.getElementById("completeNext").classList.add("sectionComplete");
+    }
+  }
+
+  function getArray(section) {
+    switch (section) {
+      case "Overview":
+        return Object.keys(formValues.Overview);
+      case "Schedule":
+        return Object.keys(formValues.Schedule);
+      case "Resources":
+        return Object.keys(formValues.Resources);
+      default:
+        return null;
+    }
+  }
+
+  function getModifySectionValueFor(sectionName) {
+    return function modifySectionValue(newValue, type) {
+      const newFormValues = { ...formValues };
+
+      newFormValues[sectionName][type] = newValue;
+      setFormValues(newFormValues);
+    };
+  }
+
+  function getModifyVideoValueFor(sectionName) {
+    return function modifyVideoValue(newValue, type) {
+      const newVideoValues = { ...videoValues };
+
+      newVideoValues[sectionName][type] = newValue;
+      setVideoValues(newVideoValues);
+      checkComplete();
+    };
+  }
+
   return (
-    <container className="check3">
-    <Table classname="check" responsive>
-    <div className="tableLayout">
-        <Col>
-        <div className="colOne">
-        <div className="colOneEle tableHeader border-left">Internship Title
-          <div className="icon">
-            <BsArrowDownSquare/>
-          </div>
-        </div>
-        <div className="colOneEle">
-          <div className="colOneTextBox">
-            <div className="colOneMainText">Product Design GVI</div>
-            <div className="colOneText">11</div>
-          </div>
-        </div>
-        <div className="colOneEle">
-          <div className="colOneTextBox">
-            <div className="colOneMainText">Product Design GVI</div>
-            <div className="colOneText">11</div>
-          </div>
-        </div>
-        <div className="colOneEle">
-          <div className="colOneTextBox">
-            <div className="colOneMainText">Product Design GVI</div>
-            <div className="colOneText">11</div>
-          </div>
-        </div>
-        <div className="colOneEle">
-          <div className="colOneTextBox">
-            <div className="colOneMainText">Product Design GVI</div>
-            <div className="colOneText">11</div>
-          </div>
-        </div>
-        <div className="colOneEle border-left-bottom">
-          <div className="colOneTextBox">
-            <div className="colOneMainText">Product Design GVI</div>
-            <div className="colOneText">11</div>
-          </div>
-        </div>
-        </div>
-        </Col>
-        <Col>
-        <div className="colTwo">
-        <div className="colTwoEle tableHeader">
-          Completion Period
-          <div className="icon">
-            <BsArrowDownSquare />
-          </div>
-        </div>
-        <div className="colTwoEle">
-          <div className="colTwoTextBox">
-            <div className="colTwoDayText">120 days</div>
-            <div className="colTwoText">(created on 10/14/22)</div>
-          </div>
-        </div>
-        <div className="colTwoEle">
-          <div className="colTwoTextBox">
-            <div className="colTwoDayText">120 days</div>
-            <div className="colTwoText">(created on 10/14/22)</div>
-          </div>
-        </div>
-        <div className="colTwoEle">
-          <div className="colTwoTextBox">
-            <div className="colTwoDayText">120 days</div>
-            <div className="colTwoText">(created on 10/14/22)</div>
-          </div>
-        </div>
-        <div className="colTwoEle">
-          <div className="colTwoTextBox">
-            <div className="colTwoDayText">120 days</div>
-            <div className="colTwoText">(created on 10/14/22)</div>
-          </div>
-        </div>
-        <div className="colTwoEle">
-          <div className="colTwoTextBox">
-            <div className="colTwoDayText">120 days</div>
-            <div className="colTwoText">(created on 10/14/22)</div>
-          </div>
-        </div>
-      </div>
-      </Col>
-      <Col>
-      <div className="colThree">
-        <div className="colThreeEle tableHeader">
-          Total Enrolled
-          <div className="icon">
-            <BsArrowDownSquare />
-          </div>
-        </div>
-        <div className="colThreeEle">
-          <div className="colThreeTextBox">
-            <div className="colThreeText">20,000</div>
-          </div>
-        </div>
-        <div className="colThreeEle">
-          <div className="colThreeTextBox">
-            <div className="colThreeText">20,000</div>
-          </div>
-        </div>
-        <div className="colThreeEle">
-          <div className="colThreeTextBox">
-            <div className="colThreeText">20,000</div>
-          </div>
-        </div>
-        <div className="colThreeEle">
-          <div className="colThreeTextBox">
-            <div className="colThreeText">20,000</div>
-          </div>
-        </div>
-        <div className="colThreeEle">
-          <div className="colThreeTextBox">
-            <div className="colThreeText">20,000</div>
-          </div>
-        </div>
-      </div>
-      </Col>
-      <Col>
-      <div className="colFour">
-        <div className="colFourEle tableHeader">
-          Qualified Candidates
-          <div className="icon">
-            <BsArrowDownSquare />
-          </div>{" "}
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" alt="icon of graph" />
-          </div>
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" alt="icon of graph"  />
-          </div>
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" alt="icon of graph"  />
-          </div>
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" alt="icon of graph"  />
-          </div>
-        </div>
-        <div className="colFourEle">
-          <div className="colFourBox">
-            <div className="colFourTextBox">
-              <div className="colFourText">120</div>
-            </div>
-            <img className="colFourGraph" alt="icon of graph" />
-          </div>
-        </div>
-      </div>
-      </Col>
-      <Col>
-      <div className="colFive ">
-        <div className="colFiveEle tableHeader border-right"></div>
-        <div className="colFiveEle">
-          <div className="colFiveIcon">
-            <div className="icon">
-              <VscGraph />
-            </div>
-            <div className="icon">
-              <BsPerson />
-            </div>
-            <div className="icon">
-              <TbCircles />
-            </div>
-          </div>
-        </div>
-        <div className="colFiveEle">
-          <div className="colFiveIcon">
-            <div className="icon">
-              <VscGraph />
-            </div>
-            <div className="icon">
-              <BsPerson />
-            </div>
-            <div className="icon">
-              <TbCircles />
-            </div>
-          </div>
-        </div>
-        <div className="colFiveEle">
-          <div className="colFiveIcon">
-            <div className="icon">
-              <VscGraph />
-            </div>
-            <div className="icon">
-              <BsPerson />
-            </div>
-            <div className="icon">
-              <TbCircles />
-            </div>
-          </div>
-        </div>
-        <div className="colFiveEle">
-          <div className="colFiveIcon">
-            <div className="icon">
-              <VscGraph />
-            </div>
-            <div className="icon">
-              <BsPerson />
-            </div>
-            <div className="icon">
-              <TbCircles />
-            </div>
-          </div>
-        </div>
-        <div className="colFiveEle border-right-bottom">
-          <div className="colFiveIcon">
-            <div className="icon">
-              <VscGraph />
-            </div>
-            <div className="icon">
-              <BsPerson />
-            </div>
-            <div className="icon">
-              <TbCircles />
-            </div>
-          </div>
-        </div>
-      </div>
-      </Col>
-     </div> 
-     </Table>
-    </container>  
+    <GuideContainer>
+      <HeaderBox next="/surveys" />
+      <ProgressBar name="Internship Guide" />
+      <SectionsBox>
+        <SectionNamesList
+          names={FormSectionNames}
+          toggleFunction={setToggle}
+          getArray={getArray}
+        />
+        <SectionsForms
+          toggle={toggle}
+          getArray={getArray}
+          modifySectionValue={getModifySectionValueFor(toggle)}
+          formValues={formValues}
+          videoValues={videoValues}
+          modifyVideoValue={getModifyVideoValueFor(toggle)}
+        />
+      </SectionsBox>
+    </GuideContainer>
   );
 }
 
-export default InternshipLists
+export default InternshipGuide;
+
+const GuideContainer = styled.div`
+  background-color: #f1f4f8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 1400px;
+  height: 100vh;
+  overflow: auto;
+`;
+const SectionsBox = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 46px);
+  margin-top: 34px;
+  gap: 23px;
+  padding-bottom: 24px;
+`;
